@@ -123,3 +123,18 @@ body {
     width: auto;
     margin-top: 15px;
 }
+
+/*DEPOIMENTOS*/
+.depositions {
+    height: 100px;
+    background-color: #e3e3e3;
+    padding-top: 17px;
+}
+
+.depositions img {
+    height: 65px;
+    width: auto;
+    margin-right: 20px;
+    border-radius: 5px;
+    float: left;
+}
