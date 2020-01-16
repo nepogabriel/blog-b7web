@@ -138,3 +138,46 @@ body {
     border-radius: 5px;
     float: left;
 }
+
+/*LOOP DE POSTS*/
+article.post {
+    margin: 45px 0 45px 0;
+}
+
+.post_thumb {
+    width: 100%;
+    height: auto;
+}
+
+.post_title {
+    font-size: 25px;
+    font-weight: bold;
+}
+
+.post_title a {
+    color: #2d3a64;
+    text-decoration: none;
+}
+
+.post_title a:hover {
+    color: #000;
+}
+
+.post_excerpt {
+    font-size: 15px;
+    color: #000;
+    margin-top: 20px;
+}
+
+.post_readmore {
+    margin-top: 25px;
+}
+
+.post_button {
+    padding: 12px;
+    font-size: 14px;
+    color: #fff;
+    background-color: #455482;
+    display: inline-block;
+    border-radius: 8px;
+}
