@@ -25,7 +25,7 @@ function gb_depositions_customizer( $wp_customize ) {
     //Panel
     $wp_customize->add_panel('gb_depositions', array(
         'title' => 'Depoimentos',
-        'priority' => 2
+        'priority' => 3
     ));
 
     //Sections

@@ -50,14 +50,21 @@
 <!-- LOOP DE POSTS -->
 <section>
     <div class="container">
-        <?php if(have_posts()): ?>
-            <?php while(have_posts()): ?>
-                <?php the_post(); ?>
+        <div class="moreposts">
+            <?php if(have_posts()): ?>
+                <?php while(have_posts()): ?>
+                    <?php the_post(); ?>
 
-                <?php get_template_part('template_parts/post'); ?>
-                
-            <?php endwhile; ?>
-        <?php endif; ?>
+                    <?php get_template_part('template_parts/post'); ?>
+                    
+                <?php endwhile; ?>
+            <?php endif; ?>
+        </div>
+
+        <div class="loadmoreButton">
+            <img src="<?php echo get_template_directory_uri(); ?>/assets/img/arrow.png">
+            Carregar Mais...
+        </div>
     </div>
 </section>
 
