@@ -13,7 +13,7 @@
                         Se você quer receber <strong>conteúdos exclusivos</strong><br>
                         que eu só mando por e-mail, cadastre-se na lista VIP:
 
-                        <form method="POST" action="">
+                        <!--<form method="POST" action="">
                             <input type="hidden" name="u" value="25"/>
                             <input type="hidden" name="f" value="25"/>
                             <input type="hidden" name="s"/>
@@ -25,7 +25,16 @@
                             <input class="optin_email" type="email" name="email" placeholder="Digite seu melhor e-mail aqui..." required/>
 
                             <input class="optin_btn" type="submit" value="Cadastrar"/>
-                        </form>
+                        </form>-->
+                        
+                        <!-- Ñ SEI SE ESTÁ FUNCIONANDO, TESTAR ONLINE -->
+                        <?php if(get_heme_mod('gb_email_home')): ?>
+                            <form method="POST" action="<?php echo get_theme_mod('gb_email_home'); ?>">
+                                <input class="optin_email" type="email" name="email" placeholder="Digite seu melhor e-mail aqui..." required/>
+                                <input class="optin_btn" type="submit" value="Cadastrar"/>
+                            <form>
+                        <?php endif; ?>
+
                     </div>
                 </div>
             </div>
