@@ -1,12 +1,8 @@
-<?php get_header(); ?>
-
 <?php
-    //Banner Home
-    if(is_home()) {
-        get_template_part('template_parts/banner-home');
-    } else {
-        get_template_part('template_parts/banner-single');
-    }
+get_header();
+
+//Banner Home
+get_template_part('template_parts/banner-home');
 ?>
 
 <!-- Depoimentos -->

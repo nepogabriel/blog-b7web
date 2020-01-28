@@ -63,11 +63,10 @@ body {
     text-decoration: none;
 }
 
-/* BANNER HOME*/
+/* BANNER HOME/PAGE/SINGLE*/
 .banner {
     background-image: url('../img/bg.jpg');
     background-position: center;
-    height: 300px;
 }
 
 .banner h2 {
@@ -115,6 +114,15 @@ body {
     padding: 0 23px 0 23px;
     margin-left: 10px;
     box-shadow: 2px 2px 8px #333;
+}
+
+.banner-small {
+    padding-bottom: 30px;
+    margin-bottom: 20px;
+}
+
+.banner-small h2 {
+    margin-top: 50px;
 }
 
 /*HERO IMAGE*/
@@ -204,4 +212,27 @@ article.type-post {
 .loadmoreButton img {
     height: 21px;
     width: auto;
+}
+
+/*FOOTER*/
+.footer_up{
+    background-color: #455482;
+}
+
+.footer_down {
+    background-color: #2d3a64;
+    padding: 25px 0 5px 0; 
+    font-size: 13px;
+    color: #fff;
+    text-align: center;
+}
+
+/*SINGLE*/
+.post_content {
+    margin: 20px 0 50px 0;
+}
+
+.post_content img {
+    width: 100%;
+    height: auto;
 }

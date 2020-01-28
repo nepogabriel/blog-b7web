@@ -7,7 +7,7 @@
                 </div>
 
                 <div class="col-sm-7">
-                    <h2>Esse <strong>Blog</strong> é para você que quer <strong>aprender a programar do zero</strong> em pouco tempo!</h2>
+                    <h2>FALTA AQUI | Esse <strong>Blog</strong> é para você que quer <strong>aprender a programar do zero</strong> em pouco tempo!</h2>
                     
                     <div class="optin">
                         Se você quer receber <strong>conteúdos exclusivos</strong><br>
@@ -28,12 +28,12 @@
                         </form>-->
                         
                         <!-- Ñ SEI SE ESTÁ FUNCIONANDO, TESTAR ONLINE -->
-                        <?php if(get_heme_mod('gb_email_home')): ?>
-                            <form method="POST" action="<?php echo get_theme_mod('gb_email_home'); ?>">
+                        <?php //if(get_heme_mod('gb_email_home')): ?>
+                            <form method="POST" action="enviar-email.php">
                                 <input class="optin_email" type="email" name="email" placeholder="Digite seu melhor e-mail aqui..." required/>
                                 <input class="optin_btn" type="submit" value="Cadastrar"/>
                             <form>
-                        <?php endif; ?>
+                        <?php //endif; ?>
 
                     </div>
                 </div>
